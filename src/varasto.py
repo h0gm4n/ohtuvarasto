@@ -12,8 +12,6 @@ class Varasto:
         else:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = self.tilavuus
-            
-    #EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
